@@ -108,6 +108,10 @@ fieldset legend {
   font-size: 12px;
   line-height: 20px;
 
+  color: #a9a7af;
+}
+
+.input-wrapper label span:hover {
   color: #6c6a71;
 }
 
@@ -224,4 +228,8 @@ footer .button {
 
 footer .button:hover {
   background: #0ba04c;
+}
+
+input:invalid {
+  border: 1px solid #ff1010;
 }
